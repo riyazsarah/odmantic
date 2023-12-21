@@ -191,7 +191,7 @@ class Event(Model):
 
       Default: `#!python {}`
 
- `#!python anystr_strip_whitespace: bool` *(inherited from Pydantic)*
+ `#!python str_strip_whitespace: bool` *(inherited from Pydantic)*
  :    Whether to strip leading and trailing whitespaces for str & byte types.
 
       Default: `#!python False`
